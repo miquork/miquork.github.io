@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-01T14:45:06+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HIP blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Guide for using Jekyll</title><link href="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Guide for using Jekyll" /><published>2024-02-01T11:48:46+02:00</published><updated>2024-02-01T11:48:46+02:00</updated><id>http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html">&lt;script&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-06T16:24:13+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HIP blog</title><subtitle>Public weblog for JEC4HL-LHC, ForVVard, SMARTHEP and HIP CMS Experiment projects.</subtitle><entry><title type="html">Guide for using Jekyll</title><link href="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Guide for using Jekyll" /><published>2024-02-01T11:48:46+02:00</published><updated>2024-02-01T11:48:46+02:00</updated><id>http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html">&lt;script&gt;
 MathJax = {
   tex: {
     inlineMath: [ [&apos;$&apos;, &apos;$&apos;], [&apos;\\(&apos;, &apos;\\)&apos;] ],
@@ -45,6 +45,11 @@ $$
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```&amp;lt;desired programming language&amp;gt;
 &amp;lt;insert code here (can be multiple lines)&amp;gt;
 ```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Example Python snippet&lt;/p&gt;
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h1 id=&quot;more-resources&quot;&gt;More resources&lt;/h1&gt;
