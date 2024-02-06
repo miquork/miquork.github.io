@@ -48,6 +48,12 @@ To display code snippet use
 ```
 ````
 
+Example Python snippet
+```python
+def main():
+	print("Hello world!")
+```
+
 # More resources
 
 To make figures, tables, etc. check [this markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/).
