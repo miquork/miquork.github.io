@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-01T14:45:06+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">HIP blog</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Guide for using Jekyll</title><link href="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Guide for using Jekyll" /><published>2024-02-01T11:48:46+02:00</published><updated>2024-02-01T11:48:46+02:00</updated><id>http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2024/02/01/welcome-to-jekyll.html">&lt;script&gt;
+MathJax = {
+  tex: {
+    inlineMath: [ [&apos;$&apos;, &apos;$&apos;], [&apos;\\(&apos;, &apos;\\)&apos;] ],
+    tags: &apos;ams&apos;
+  },
+  svg: {
+    fontCache: &apos;global&apos;
+  }
+};
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; id=&quot;MathJax-script&quot; async=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;h1 id=&quot;creating-a-new-post&quot;&gt;Creating a new post&lt;/h1&gt;
+
+&lt;p&gt;A new post is created by adding a new markdown file to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory on your local branch and by pushing the newly made changes onto the remote &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main&lt;/code&gt; branch. This file works as a template. Make sure to add the line&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include mathjax.html %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;to your markdown file. The line is important for LaTex rendering.&lt;/p&gt;
+
+&lt;h1 id=&quot;latex-rendering&quot;&gt;LaTex rendering&lt;/h1&gt;
+
+&lt;p&gt;The following LaTex&lt;/p&gt;
+
+\[\begin{equation}
+F(x)=\int f(x)dx
+\end{equation}\]
+
+&lt;p&gt;was created with&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$
+\begin{equation}
+F(x)=\int f(x)dx
+\end{equation}
+$$
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;For inline LaTex use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$...$&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;code-snippets&quot;&gt;Code snippets&lt;/h1&gt;
+
+&lt;p&gt;To display code snippet use&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;```&amp;lt;desired programming language&amp;gt;
+&amp;lt;insert code here (can be multiple lines)&amp;gt;
+```
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;more-resources&quot;&gt;More resources&lt;/h1&gt;
+
+&lt;p&gt;To make figures, tables, etc. check &lt;a href=&quot;https://www.markdownguide.org/cheat-sheet/&quot;&gt;this markdown cheat sheet&lt;/a&gt;.&lt;/p&gt;</content><author><name>Dan Näsman</name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry></feed>
